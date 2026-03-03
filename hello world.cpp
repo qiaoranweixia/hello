@@ -16,6 +16,7 @@ int coinChange(int rest, int idx) {
     }
     return 1;  
 }
+
 int main() {
     int n;
     cin >> n;
