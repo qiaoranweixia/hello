@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #include <iostream>
 #include <array>
 
@@ -24,3 +25,6 @@ int main() {
     cout << ans << endl;
     return 0;
 }
+=======
+DSVDBVDF
+>>>>>>> Stashed changes
