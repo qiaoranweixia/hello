@@ -6,7 +6,7 @@ using namespace std;
 std::array<int, 4> coins = { 64, 16, 4, 1 };
 
 int coinChange(int rest, int idx) {
-    if (rest > coins[idx])  
+    if (rest >= coins[idx])  
     {
         rest -= coins[idx];
         return 1 + coinChange(rest, idx);
@@ -15,7 +15,7 @@ int coinChange(int rest, int idx) {
     {
         return coinChange(rest, ++idx);
     }
-    return 1;  
+    return 0;  
 }
 
 int main() {
